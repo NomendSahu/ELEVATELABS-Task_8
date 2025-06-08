@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elevate Labs - Bootstrap 5</title>
+    <!-- Bootstrap 5 CSS CDN -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons CDN -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.1/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><i class="bi bi-code-slash me-2"></i>Elevate Labs</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section text-center" id="home">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <h1 class="display-4 fw-bold mb-4">Welcome to Elevate Labs</h1>
+                    <p class="lead mb-4">Discover the latest trends in technology, web development, and many more. Stay ahead with our expert insights and tutorials.</p>
+                    <a href="#blog" class="btn btn-light btn-lg px-4">Explore Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Posts Section -->
+    <section class="py-5" id="blog">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12 text-center">
+                    <h2 class="display-5 fw-bold mb-3">Our Latest Works</h2>
+                    <p class="lead text-muted">Stay updated with our latest posts and tutorials</p>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <!-- Blog Post 1 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100">
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Web Development">
+                        <div class="card-body d-flex flex-column">
+                            <div class="mb-2">
+                                <span class="badge bg-primary badge-category">Web Development</span>
+                            </div>
+                            <h5 class="card-title">Modern JavaScript Frameworks: A Complete Guide</h5>
+                            <p class="card-text flex-grow-1">Explore the latest JavaScript frameworks and learn which one suits your next project. From React to Vue to Angular, we cover them all.</p>
+                            <div class="d-flex justify-content-between align-items-center mt-auto">
+                                <small class="text-muted"><i class="bi bi-calendar3 me-1"></i>April 15, 2025</small>
+                                <a href="#" class="btn btn-primary btn-sm">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog Post 2 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100">
+                        <img src="https://images.unsplash.com/photo-1518186285589-2f7649de83e0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Mobile Development">
+                        <div class="card-body d-flex flex-column">
+                            <div class="mb-2">
+                                <span class="badge bg-success badge-category">Mobile Dev</span>
+                            </div>
+                            <h5 class="card-title">Building Responsive Mobile Apps with Flutter</h5>
+                            <p class="card-text flex-grow-1">Learn how to create beautiful, performant mobile applications using Flutter. This comprehensive guide covers everything from setup to deployment.</p>
+                            <div class="d-flex justify-content-between align-items-center mt-auto">
+                                <small class="text-muted"><i class="bi bi-calendar3 me-1"></i>Feb 12, 2025</small>
+                                <a href="#" class="btn btn-primary btn-sm">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog Post 3 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100">
+                        <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Cloud Computing">
+                        <div class="card-body d-flex flex-column">
+                            <div class="mb-2">
+                                <span class="badge bg-info badge-category">Cloud</span>
+                            </div>
+                            <h5 class="card-title">Getting Started with AWS for Beginners</h5>
+                            <p class="card-text flex-grow-1">A step-by-step guide to Amazon Web Services. Learn the fundamentals of cloud computing and how to deploy your first application.</p>
+                            <div class="d-flex justify-content-between align-items-center mt-auto">
+                                <small class="text-muted"><i class="bi bi-calendar3 me-1"></i>Jan 10, 2025</small>
+                                <a href="#" class="btn btn-primary btn-sm">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog Post 4 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100">
+                        <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="AI Technology">
+                        <div class="card-body d-flex flex-column">
+                            <div class="mb-2">
+                                <span class="badge bg-warning badge-category">AI/ML</span>
+                            </div>
+                            <h5 class="card-title">Machine Learning Trends in 2024</h5>
+                            <p class="card-text flex-grow-1">Discover the latest trends in machine learning and artificial intelligence. From GPT models to computer vision breakthroughs.</p>
+                            <div class="d-flex justify-content-between align-items-center mt-auto">
+                                <small class="text-muted"><i class="bi bi-calendar3 me-1"></i>Dec 8, 2024</small>
+                                <a href="#" class="btn btn-primary btn-sm">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog Post 5 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100">
+                        <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Cybersecurity">
+                        <div class="card-body d-flex flex-column">
+                            <div class="mb-2">
+                                <span class="badge bg-danger badge-category">Security</span>
+                            </div>
+                            <h5 class="card-title">Cybersecurity Best Practices for Developers</h5>
+                            <p class="card-text flex-grow-1">Essential security practices every developer should know. Protect your applications from common vulnerabilities and attacks.</p>
+                            <div class="d-flex justify-content-between align-items-center mt-auto">
+                                <small class="text-muted"><i class="bi bi-calendar3 me-1"></i>Dec 5, 2024</small>
+                                <a href="#" class="btn btn-primary btn-sm">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog Post 6 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Data Analytics">
+                        <div class="card-body d-flex flex-column">
+                            <div class="mb-2">
+                                <span class="badge bg-secondary badge-category">Analytics</span>
+                            </div>
+                            <h5 class="card-title">Data Visualization with D3.js</h5>
+                            <p class="card-text flex-grow-1">Learn how to create stunning data visualizations using D3.js. Transform raw data into compelling visual stories that engage your audience.</p>
+                            <div class="d-flex justify-content-between align-items-center mt-auto">
+                                <small class="text-muted"><i class="bi bi-calendar3 me-1"></i>Dec 3, 2024</small>
+                                <a href="#" class="btn btn-primary btn-sm">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Load More Button -->
+            <div class="row mt-5">
+                <div class="col-12 text-center">
+                    <button class="btn btn-outline-primary btn-lg px-5">Load More Articles</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="bg-light py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 text-center">
+                    <h3 class="fw-bold mb-3">Stay Updated</h3>
+                    <p class="text-muted mb-4">Subscribe to our newsletter and never miss the latest tech insights and tutorials.</p>
+                    <div class="input-group mb-3">
+                        <input type="email" class="form-control form-control-lg" placeholder="Enter your email address" aria-label="Email">
+                        <button class="btn btn-primary btn-lg" type="button">Subscribe</button>
+                    </div>
+                    <small class="text-muted">We respect your privacy. Unsubscribe at any time.</small>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-5" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h5 class="fw-bold mb-3"><i class="bi bi-code-slash me-2"></i>Elevate Labs</h5>
+                    <p class="text-light">Your go-to resource for the latest in technology, web development, and many more. Join our community of developers and tech enthusiasts.</p>
+                    <div class="d-flex gap-3 mt-3">
+                        <a href="#" class="social-icon"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="social-icon"><i class="bi bi-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="bi bi-linkedin"></i></a>
+                        <a href="#" class="social-icon"><i class="bi bi-github"></i></a>
+                        <a href="#" class="social-icon"><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6 class="fw-bold mb-3">Quick Links</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-light text-decoration-none">Home</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">Blog</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">About</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h6 class="fw-bold mb-3">Categories</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-light text-decoration-none">Web Development</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">Mobile Apps</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">Cloud Computing</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">AI & Machine Learning</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <h6 class="fw-bold mb-3">Contact Info</h6>
+                    <ul class="list-unstyled text-light">
+                        <li><i class="bi bi-envelope me-2"></i>ElevateLabs@gmail.com</li>
+                        <li><i class="bi bi-phone me-2"></i>No available</li>
+                        <li><i class="bi bi-geo-alt me-2"></i>Benglore,Karnataka</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="text-muted mb-0">&copy; 2025 Elevate. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="#" class="text-muted text-decoration-none me-3">Privacy Policy</a>
+                    <a href="#" class="text-muted text-decoration-none">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Smooth Scrolling Script -->
+   
+</body>
+</html>
